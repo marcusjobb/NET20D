@@ -8,19 +8,21 @@
         {
             var crud = new People();
 
-            crud.Create(new Person
+            var marcus = new Person
             {
                 FirstName = "Marcus",
                 LastName = "Medina",
                 Address = "Gula huset till vänster",
                 City = "Onsala",
                 Age = 50,
-            });
+            };
+            crud.Create(marcus);
             Console.WriteLine("Created person");
-            var person = crud.Read("Marcus Medina");
+
+            var person = crud.Read("Marcus          Medina");
             Print(person);
 
-            person = crud.Read("Phillip");
+            person = crud.Read("Hounsom");
             Print(person);
 
             person = crud.Read("Marcus Medina");

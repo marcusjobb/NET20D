@@ -11,8 +11,8 @@
             //Övning6.Run2();
             //Övning7.Run();
             //Övning7.Run2();
-            Övning8.Run();
-            //Övning9.Run();
+            //Övning8.Run();
+            Övning9.Run();
         }
     }
 }
