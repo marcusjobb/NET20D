@@ -6,7 +6,7 @@
     public class Person
     {
         /// <summary>
-        /// Gets or sets the Address.
+        /// Adress till personen
         /// </summary>
         public string Address { get; set; }
 

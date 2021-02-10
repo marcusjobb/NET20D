@@ -19,7 +19,7 @@
             crud.Create(marcus);
             Console.WriteLine("Created person");
 
-            var person = crud.Read("Marcus          Medina");
+            var person = crud.Read("Marcus Medina");
             Print(person);
 
             person = crud.Read("Hounsom");
@@ -33,13 +33,13 @@
             person = crud.Read("Marcus Medina");
             Print(person);
 
-            Console.WriteLine("Deleted person");
             crud.Delete(person);
+            Console.WriteLine("Deleted person");
 
             person = crud.Read("Marcus Medina");
             Print(person);
 
-            var people = crud.List();
+            var people = crud.List("Name LIKE %Robin%", "Age Desc", 100);
             foreach (var p in people)
             {
                 Print(p);

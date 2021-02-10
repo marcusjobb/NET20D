@@ -11,14 +11,29 @@
     /// </summary>
     public class SQLDatabase
     {
+        internal void AddStudent(string name, int age)
+        {
+            var sql = $"INSERT INTO Students (age,name) VALUES(@age, @name);";
+            var parameters = new (string, string)[]
+                {
+                    ("@age",age.ToString()),
+                    ("@name",name),
+                };
+            ExecuteSQL(sql,parameters);
+        }
+
+
         /// <summary>
         /// A template for the connection string
         /// </summary>
         internal string ConnectionString { get; set; } = @"Data Source=.\SQLExpress;Integrated Security=true;database={0}";
         // The name of the database to use
-        internal string DatabaseName { get; set; } = "population";
+        internal string DatabaseName { get; set; } = "Population";
 
-        // TODO: Gör en metod för sp_spaceUsed
+        public SQLDatabase(string databaseName = "")
+        {
+            DatabaseName = databaseName;
+        }
 
         /// <summary>
         /// Import an SQL-file and execute it's content
@@ -27,10 +42,7 @@
         internal void ImportSQL(string filename)
         {
             if (File.Exists(filename))
-            {
-                var sql = File.ReadAllText(filename);
-                ExecuteSQL(sql);
-            }
+                ExecuteSQL(File.ReadAllText(filename));
         }
 
         /// <summary>
@@ -113,7 +125,7 @@
         }
 
         /// <summary>
-        /// Executes DROP TABÖE
+        /// Executes DROP TABLE
         /// </summary>
         /// <param name="name">The name of the table</param>
         internal void DropTable(string name)

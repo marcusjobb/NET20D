@@ -37,7 +37,6 @@
             {
                 System.Console.WriteLine(ex.Message);
             }
-
         }
 
         /// <summary>
@@ -176,12 +175,12 @@
         }
 
         /// <summary>
-        /// Hämtar en lista på personer
+        /// Listar alla personer i databasen enligt vissa kriterier
         /// </summary>
-        /// <param name="filter">exempel name LIKE %Pekka%</param>
-        /// <param name="orderBy"></param>
-        /// <param name="max"></param>
-        /// <returns></returns>
+        /// <param name="filter">Where sats, exempelvis Name Like %Robin%</param>
+        /// <param name="orderBy">Hur informationen ska sorteras, exempel LastName</param>
+        /// <param name="max">Max antal rader som ska returneras</param>
+        /// <returns>Lista med Person objekt</returns>
         public List<Person> List(string filter = "", string orderBy = "lastName", int max = 10)
         {
             var db = new SQLDatabase

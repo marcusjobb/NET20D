@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj": {}
+    "D:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj": {}
   },
   "projects": {
-    "d:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj": {
+    "D:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj",
+        "projectUniqueName": "D:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj",
         "projectName": "TisdagsÖvningCSDB",
-        "projectPath": "d:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj",
+        "projectPath": "D:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj",
         "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
-        "outputPath": "d:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\obj\\",
+        "outputPath": "D:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcu\\AppData\\Roaming\\NuGet\\NuGet.Config",

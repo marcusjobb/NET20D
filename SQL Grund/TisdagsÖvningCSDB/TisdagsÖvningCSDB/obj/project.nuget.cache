@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wOhKyUMGDsCDpKho8u07+P/iURclNP/SsGmdB+YaeoO7HDPFjKRqwVzZ6P1cavBV5TdTF5Ln/DksEOnqYvly6Q==",
+  "dgSpecHash": "S/JMVosPmkxRuCiAw/DkHj/50ejdB90fcnX5mOyJkIUfL+AK//TvsGfpDvhenNWcPilenEzN+tDlkfhqNl5O4w==",
   "success": true,
-  "projectFilePath": "d:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj",
+  "projectFilePath": "D:\\Dev\\Codic\\NET20D\\SQL Grund\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB\\TisdagsÖvningCSDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
