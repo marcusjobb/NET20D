@@ -14,7 +14,7 @@ namespace TisdagsÖvningCSDB
             //Övning7.Run();
             //Övning7.Run2();
             //Övning8.Run();
-            //Övning9.Run();
+            Övning9.Run();
         }
 
     }
