@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+		<Header>
+		   <Title>Entity Framework Model</Title>
+		   <Author>Marcus Medina</Author>
+		   <Description>Inserts properties for an Entity Framework Model.</Description>
+		   <Shortcut>EfPoco</Shortcut>
+		 </Header>
+        <Snippet>
+			<Code Language="CSharp">
+				<![CDATA[        [Key]
+        public int Id { get; set; }
+        public string Name { get; set; }]]>
+			</Code>
+      <Imports>
+        <Import>
+          <Namespace>System.ComponentModel.DataAnnotations</Namespace>
+        </Import>
+      </Imports>        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

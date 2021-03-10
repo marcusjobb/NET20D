@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+		<Header>
+		   <Title>SQL Server Connection String</Title>
+		   <Author>Me!</Author>
+		   <Description>Inserts SQL Server connection string.</Description>
+		   <Shortcut>ConStr</Shortcut>
+		 </Header>
+        <Snippet>
+			<Code Language="CSharp">
+				<![CDATA[optionsBuilder.UseSqlServer($$@"Server=.\SQLEXPRESS;Database={DatabaseName}; Trusted_Connection = true;");]]>
+			</Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+           <Title>DBSet generator</Title>
+           <Author>Me!</Author>
+           <Description>Creates a DBSet.</Description>
+           <Shortcut>DBSet</Shortcut>
+         </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[public DbSet<$Model$> $Model$s { get; set; }]]>
+            </Code>
+             <Declarations>
+                <Literal>
+                    <ID>Model</ID>
+                <ToolTip>Choose the model to use.</ToolTip>
+                <Default>MyModel</Default>
+                </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
