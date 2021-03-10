@@ -16,7 +16,6 @@ namespace EntityFramework01.Models
         public string TitelEng { get; set; }
         public string TitelSwe { get; set; }
         public int Betyg { get; set; }
-
         public override string ToString()
         {
             return $"Film:{TitelEng} ({Betyg})";

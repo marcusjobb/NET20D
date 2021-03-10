@@ -20,8 +20,7 @@ namespace EntityFramework01.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer
-                ($@"Server = .\SQLEXPRESS;Database={DatabaseName};trusted_connection=true");
+            optionsBuilder.UseSqlServer($@"Server = .\SQLEXPRESS;Database={DatabaseName};trusted_connection=true");
         }
     }
 }
