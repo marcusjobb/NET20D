@@ -9,7 +9,12 @@ namespace Geothings.Geometry
 {
     public class GeometricCalculator
 {
-        public float GetPerimeter(GemetricThing[] things)
+        /// <summary>
+        /// Calculates the perimeter for many geometric things
+        /// </summary>
+        /// <param name="things"></param>
+        /// <returns></returns>
+        public float GetPerimeter(IGeometricThing[] things)
         {
             return 0;
         }

@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 
 namespace Geothings.Geometry
 {
-    public class Square : GemetricThing
+    public class Square : IGeometricThing
     {
-        public Square()
-        {
-
-        }
         public Square(float side)
         {
             Side = side;
@@ -21,13 +17,13 @@ namespace Geothings.Geometry
         public float Side { get; set; }
         public override float GetArea()
         {
-            return 0;
+            return -1;
             //return (float)Math.Pow(side, 2);
         }
 
         public override float GetPerimeter()
         {
-            return 0;
+            return -1;
             //return 4 * side;
         }
     }
