@@ -1,0 +1,42 @@
+﻿@model BookShop.Models.Book
+
+<form method="post" asp-action="AddBookToCategory">
+    <div class="border p-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <h2 class="text-black-50 pl-3">Add Item</h2>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="CategoryId"></label>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <input asp-for="CategoryId" class="form-control" />
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-2 row">
+                        <div class="col">
+                            <input type="submit" class="btn btn-info w-75" value="Add" />
+                        </div>
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-danger w-75">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</form>
+
+
+
+
+

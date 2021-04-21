@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebbShopJoR.API">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hBBIAIBAAAYQAIAAAGAAAAKCAQBBgAAgAAAQAAAAAgg=</HashCode>
+      <FileName>API.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Models.Book">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAEAAgAAAAACAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Models.BookCategory">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Models.SoldBook">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAQAAAEAAgAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SoldBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Models.User">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAGAAAAEAAAAAQACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Database.MyContext">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAEAAAAAAAAAAAgAAAIAAAAAgAAAABAAA=</HashCode>
+      <FileName>Database\MyContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopJoR.Helper.Seeder">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIQQAAAABAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helper\Seeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

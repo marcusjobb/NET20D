@@ -1,0 +1,70 @@
+﻿@model IEnumerable<BookShop.Models.SoldBook>
+@{
+    ViewData["Title"] = "ShowSearchResults";
+}
+<div class="container p-2">
+    <div class="row pt-4">
+        <div class="=" col-6">
+            <h2 class="text-primary">Search Results</h2>
+        </div>
+    </div>
+    <br />
+
+    @if (Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" stryle="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Author
+                    </th>
+                    <th>
+                        Category id
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Purchase date
+                    </th>
+                    <th>
+                        User id
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                <tr>
+                    <td width="20%">@book.Id</td>
+                    <td width="20%">@book.Title</td>
+                    <td width="20%">@book.Author</td>
+                    <td width="20%">@book.CategoryId</td>
+                    <td width="20%">@book.Price</td>
+                    <td width="20%">@book.PurchasedDate</td>
+                    <td width="20%">@book.UserId</td>
+                    <td width="40%">
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+    else
+    {
+        <p>No sold books yet</p>
+    }
+    <div>
+        <a asp-controller="AdminLogin" asp-action="LoginVerification">Back to Admin Menu</a>
+    </div>
+
+
+</div>
+

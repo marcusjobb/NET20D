@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bokhandel.Controller.BookController">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAMAAYAoAAAAAAAAAAABAAAAAAAAAAAAAEAIA=</HashCode>
+      <FileName>Controller\BookController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bokhandel.Controller.AdminController">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hBAACABAAQYAAkAAgCAAAACAAAAAAAAgAQAIAAAAIgg=</HashCode>
+      <FileName>Controller\AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bokhandel.Controller.MenuController">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAA=</HashCode>
+      <FileName>Controller\MenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bokhandel.Controller.UserController">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Controller\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bokhandel.Help.Input">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBA=</HashCode>
+      <FileName>Help\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bokhandel.View.AdminView">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAHAAQBAAUABAAAQgAAAAgAAAAEAAAAAATIAAAAASA=</HashCode>
+      <FileName>View\AdminView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bokhandel.View.BookView">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAEAAAAAAAAAAAIAAAAAAAAAAAAEA=</HashCode>
+      <FileName>View\BookView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bokhandel.View.UserView">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAoAAAAAAAAAAAAAAAAggAAAAAAAAAAA=</HashCode>
+      <FileName>View\UserView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

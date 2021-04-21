@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="WebshopAPI.Program">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Startup">
+    <Position X="9" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.WebshopAPI">
+    <Position X="12" Y="2.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>hBBIAABEAAYAAIAAAGAAAALCAQBBgAAgBAAwAkAAAgg=</HashCode>
+      <FileName>WebshopAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Utils.DevTools">
+    <Position X="0.75" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAACAAAAAAAAAAAAAAJAAABADAAAAAAAAA=</HashCode>
+      <FileName>Utils\DevTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Utils.Security">
+    <Position X="0.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Security.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Utils.Seed">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Utils\Seed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Utils.SessionTimer">
+    <Position X="0.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEAAQAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\SessionTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Models.Book">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAkAAgAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Models.BookCategory">
+    <Position X="17.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Models.SoldBook">
+    <Position X="16.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAkAAgIAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SoldBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Models.User">
+    <Position X="16.75" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAGAAAAEAAAAAQACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Migrations.InitDB">
+    <Position X="9" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20210321070825_InitDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Migrations.EFContextModelSnapshot">
+    <Position X="9" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\EFContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Database.ContextFactory" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Database\ContextFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebshopAPI.Database.DatabaseCreator">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\DatabaseCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.Database.EFContext">
+    <Position X="4.5" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAEAAAAAAAAAAAgAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\EFContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

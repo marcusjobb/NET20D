@@ -1,0 +1,66 @@
+﻿<h5>Search for all available books in a specific category using category id</h5>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AllAvailableBooks">
+            <div class="form-group">
+                <label for="id" class="control-label"></label>
+                <input name="id" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<h5>Search for a Book using book id</h5>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ShowSearchResults">
+            <div class="form-group">
+                <label for="id" class="control-label"></label>
+                <input name="id" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<h5>Search for a Book using a keyword</h5>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ShowSearchResultsWithKeyword">
+            <div class="form-group">
+                <label for="keyword" class="control-label"></label>
+                <input name="keyword" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<h5>Search for books with matching author</h5>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="MatchingAuthorList">
+            <div class="form-group">
+                <label for="keyword" class="control-label"></label>
+                <input name="keyword" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+

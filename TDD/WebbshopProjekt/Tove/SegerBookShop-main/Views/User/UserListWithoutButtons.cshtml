@@ -1,0 +1,67 @@
+﻿@model IEnumerable<BookShop.Models.User>
+@{
+    ViewData["Title"] = "Manage Users";
+}
+<div class="container p-2">
+    <div class="row pt-4">
+        <div class="=" col-6">
+            <h2 class="text-primary">Search Results</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a asp-controller="User" asp-action="Create" class="btn bg-primary">Create New User</a>
+        </div>
+    </div>
+    <br />
+
+    @if (Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" stryle="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Password
+                    </th>
+                    <th>
+                        Last login
+                    </th>
+                    <th>
+                        Session Timer
+                    </th>
+                    <th>
+                        Is Active
+                    </th>
+                    <th>
+                        Is Admin
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td width="20%">@user.Name</td>
+                        <td width="20%">@user.Password</td>
+                        <td width="20%">@user.LastLogin</td>
+                        <td width="20%">@user.SessionTimer</td>
+                        <td width="20%">@user.IsActive</td>
+                        <td width="20%">@user.IsAdmin</td>                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+    else
+    {
+        <p>No users created yet</p>
+    }
+    <div>
+        <a asp-controller="AdminLogin" asp-action="LoginVerification">Back to Admin Menu</a>
+    </div>
+
+
+</div>
+

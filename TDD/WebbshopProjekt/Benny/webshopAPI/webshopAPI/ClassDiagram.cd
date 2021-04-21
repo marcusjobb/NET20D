@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="webshopAPI.Db.Database">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAEAAAAAAAAAAAgAAAIAAAAAAAAAABAAA=</HashCode>
+      <FileName>Db\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webshopAPI.Db.Seeder">
+    <Position X="10.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Seeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webshopAPI.Helpers.UserHelpers">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAQAAAAAAAAgAgAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Helpers\UserHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webshopAPI.Book">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAEAAgAAAAACAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webshopAPI.Models.BookCategory">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webshopAPI.SoldBook">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAkAAgIAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SoldBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webshopAPI.User">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAGAAAEEAAAAAQACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webshopAPI.View.PrintOut">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\PrintOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webshopAPI.WebShopApi">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jBBIAABFAAYQAIAAAGAAAELCAQABAAAgBAAwAkAAAgg=</HashCode>
+      <FileName>WebShopAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

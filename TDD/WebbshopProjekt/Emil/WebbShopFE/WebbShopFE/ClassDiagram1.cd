@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebbShopFE.Controllers.AdminController">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hBAAAABEAAYAAAAAACAAAADAAAAAAAAgBCAgAkAAAgg=</HashCode>
+      <FileName>Controllers\AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Controllers.AuthenticationController">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAoAAAABAAAAACAQAAAAAAA=</HashCode>
+      <FileName>Controllers\AuthenticationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Controllers.MenuController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAACAQABECEAAAgCAIIAAAAAA=</HashCode>
+      <FileName>Controllers\MenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Controllers.ShopController">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAACAAAEAAAAgCAAAAAAEAA=</HashCode>
+      <FileName>Controllers\ShopController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Helper.HelpMethods">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAQBAIACAAAAAAAAAA=</HashCode>
+      <FileName>Helper\HelpMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Views.BookView">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>Views\BookView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Views.CategoryView">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\CategoryView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Views.InputView">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAABQIAAAAAACAAACAAYEAIABAABAgAAAEAA=</HashCode>
+      <FileName>Views\InputView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Views.MenuView">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAQABAAEAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Views\MenuView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Views.UserView">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgBAAAAAAAAAAAAACAAAACBAEAAAAAAAA=</HashCode>
+      <FileName>Views\UserView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopFE.Views.MessageView">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAACAAAAAAAAIAAgAAAABAAAAAAAACAAAgAAA=</HashCode>
+      <FileName>Views\MessageView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

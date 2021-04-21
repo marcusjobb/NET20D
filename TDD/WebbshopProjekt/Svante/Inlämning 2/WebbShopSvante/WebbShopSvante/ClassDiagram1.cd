@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebbShopAPI.Database.EFContext">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAEAAAAAIAAAAAgAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Database\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Models.Book">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAEAEgAIAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Models.BookGenre">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAMAAAAAIAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BookGenre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Models.SoldBook">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAQAAIEAAgAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SoldBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Models.User">
+    <Position X="13.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAEEAAAEAAAAAQACAAAAAACAAAAAAIAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.WebbShopApi">
+    <Position X="3.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABIAAAAAAAQAIAAggAEAAACAQBBgAAAAAAQAAAAAAA=</HashCode>
+      <FileName>WebbShopApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Database.Seeder">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Seeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPI.Program">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,87 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model IEnumerable<WebbShopApi.Models.Book>
+    @{
+        ViewData["Title"] = "Index";
+    }
+
+    <h1>Books in store.</h1>
+    @if (@Context.Session.GetString("IsAdmin") == "True")
+    {<p><a class="btn btn-primary" mb-5 asp-action="Create">Create New</a></p>}
+    @if (@Context.Session.GetString("Name") == null)
+    {
+        <p>You have to log in if you want to buy a book!</p>
+        <p>ps ... Only admin can see statistic</p>
+    }
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Author)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Amount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BookCategory)
+                </th>
+                <th></th>
+                @if (@Context.Session.GetString("IsAdmin") == "True")
+                {
+                    <th></th>
+                }
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BookCategory.Name)
+                    </td>
+                    @{
+                        string Disabled = "btn-primary";
+                        if (@Context.Session.GetString("Name") == null)
+                        {
+                            Disabled = "btn-secondary disabled";
+                        }
+                        if (item.Amount <= 0)
+                        {
+                            Disabled = "btn-secondary disabled";
+                        }
+                    }
+                    <td>
+                        <a class="btn btn-sm  text-light @Disabled" asp-action="Buy" asp-route-id="@item.BookId">Buy</a>
+                    </td>
+                    @if (@Context.Session.GetString("IsAdmin") == "True")
+                    {
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.BookId">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.BookId">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.BookId">Delete</a>
+                        </td>
+                    }
+
+
+                </tr>
+            }
+        </tbody>
+    </table>

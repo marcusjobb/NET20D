@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebbShopUI.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Controller.AdminController">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAAAAAAAA=</HashCode>
+      <FileName>Controller\AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Controller.MenuController">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Controller\MenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Controller.UserController">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Controller\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.Home">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MenuViews\Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.Login">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Views\MenuViews\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.Register">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MenuViews\Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.UserViews.Books">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAQAAAAAAAAAAACIAAAABQAAACAAAAAAA=</HashCode>
+      <FileName>Views\UserViews\Books.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.UserViews.Categories">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAABEAAEAA=</HashCode>
+      <FileName>Views\UserViews\Categories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.UserViews.UserHome">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserViews\UserHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.AdminViews.AdminHome">
+    <Position X="13.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAA=</HashCode>
+      <FileName>Views\AdminViews\AdminHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.AdminViews.AdminUsers">
+    <Position X="15" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAIAAAAAAAAQAAAAAAAAAAAgA=</HashCode>
+      <FileName>Views\AdminViews\AdminUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.AdminViews.AdminCategories">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Views\AdminViews\AdminCategories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.AdminViews.AdminBooks">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQQAABAAAAAAAAAAAAAAAEAgAQAAAAAAgAA=</HashCode>
+      <FileName>Views\AdminViews\AdminBooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopUI.Views.Messages">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAgAQAAAAAAAA=</HashCode>
+      <FileName>Helpers\Messages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

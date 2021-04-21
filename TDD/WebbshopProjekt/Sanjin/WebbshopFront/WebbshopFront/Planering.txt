@@ -1,0 +1,39 @@
+﻿    Skapa Controllers för de olika typerna (Login/Logout, Kategorier, Böcker, Admin)
+    Skapa vyer som dessa kontroller behöver
+    Gör så för alla metoder i API
+    
+    Viktigt: Gör en API-anrop åt gången, följ listan i PDF filen, en metod i taget
+    User:
+    Controller: Login
+                   
+                    
+                    Ping (userId)
+                    
+   
+                 
+
+                   
+                  
+                 
+                    
+                  
+  
+    Admin:
+    Controller: AdminBooks
+                     
+
+
+               
+                    UpdateBook(userId)
+                    DeleteBook(userId)
+    Controller: AdminUsers
+                    
+                    FindUser(userId)
+                    AddUser(userId)
+    Controller: Categories
+                    AddCategory(userId)
+                    AddBookToCategory(userId)
+                    UpdateCategory(userId)
+                    DeleteCategory(userId)
+
+

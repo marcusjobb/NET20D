@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InlamningDB2.Database.MyContext">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAAABAAAAAAAAAAAAAEAAAAAAAAEABAAA=</HashCode>
+      <FileName>Database\MyContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InlamningDB2.Database.Seeder">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Seeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InlamningDB2.Models.BookCategory">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InlamningDB2.Models.Books">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAgAAgAAAAACAAAAAAAAAAAAAAAAQCAA=</HashCode>
+      <FileName>Models\Books.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InlamningDB2.Models.Soldbooks">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAQAAAgAAgAAAAACAAAAAAAAAAAAAAAAQCAA=</HashCode>
+      <FileName>Models\Soldbooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InlamningDB2.Models.User">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAGAAAAEAAAAAQACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

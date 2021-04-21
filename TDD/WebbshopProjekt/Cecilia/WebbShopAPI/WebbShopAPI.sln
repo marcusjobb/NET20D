@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebbShopAPI", "WebbShopAPI\WebbShopAPI.csproj", "{DBCC3BDC-001E-4636-94FE-603B4CBCC463}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCC3BDC-001E-4636-94FE-603B4CBCC463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC3BDC-001E-4636-94FE-603B4CBCC463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCC3BDC-001E-4636-94FE-603B4CBCC463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCC3BDC-001E-4636-94FE-603B4CBCC463}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23928BF2-5468-4BDB-B53C-546E81E637B9}
+	EndGlobalSection
+EndGlobal

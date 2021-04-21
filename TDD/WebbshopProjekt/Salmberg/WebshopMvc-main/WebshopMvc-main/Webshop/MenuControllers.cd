@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebshopMVC.Controllers.Menu.AdminMenuController">
+    <Position X="3.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAEAAAAAAAAIAAAAACACAAAAAAA=</HashCode>
+      <FileName>Controllers\Menu\AdminMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Controllers.MainMenuController">
+    <Position X="6.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Controllers\Menu\MainMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Controllers.Menu.CategoryMenuController">
+    <Position X="6.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\Menu\CategoryMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Controllers.Menu.BookMenuController">
+    <Position X="9" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Menu\BookMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webshop.Program">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.UtilsMVC.ASCII">
+    <Position X="6.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAIQAAAAAABAAAAEAAwAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UtilsMVC\Design\ASCII.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

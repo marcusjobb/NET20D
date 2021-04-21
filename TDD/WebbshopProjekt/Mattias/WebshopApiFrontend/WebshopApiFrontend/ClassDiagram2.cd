@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebshopApiFrontend.Utility.AdminMethods">
+    <Position X="12.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAoCAAEgBQACIIAJAIAAgAAAAAAAAUAgAAAIAA=</HashCode>
+      <FileName>Controllers\AdminMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApiFrontend.Utility.Errorhandeling">
+    <Position X="9.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAACAAAAAAAAAAAEAAAAAAAABAAQAABAAA=</HashCode>
+      <FileName>Controllers\Errorhandeling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApiFrontend.Utility.Methods">
+    <Position X="12.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAABQCAAAAAAICAAAAAAAAABAAAAAAAQAAAA=</HashCode>
+      <FileName>Controllers\Methods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApiFrontend.Utility.UserInputs">
+    <Position X="9.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAIAAEABAAAAAAAAAAkAAIACAAAAAAgCIAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UserInputs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApiFrontend.Utility.AdminMenu">
+    <Position X="4.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAEAAAAgAAA=</HashCode>
+      <FileName>Views\AdminMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApiFrontend.Utility.LoginMenu">
+    <Position X="1" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Views\LoginMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApiFrontend.Utility.MainMenu">
+    <Position X="1" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEA=</HashCode>
+      <FileName>Views\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApiFrontend.Utility.SearchMenu">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEAA=</HashCode>
+      <FileName>Views\SearchMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApiFrontend.Utility.Shop">
+    <Position X="2.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

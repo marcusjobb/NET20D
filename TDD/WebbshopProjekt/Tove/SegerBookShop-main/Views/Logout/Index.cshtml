@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Sure you want to leave?</h1>
+<div class="form-group row">
+    <div class="col-8 offset-2 row">
+        <div class="w-100 btn-group" role-"group">
+            <a asp-controller="Logout" asp-action="LogoutOk" class="btn btn-primary mx-1">Yes, bye! </a>
+            <a asp-controller="Home" asp-action="Index" class="btn btn-danger mx-1">Back </a>
+        </div>
+    </div>
+</div>
+

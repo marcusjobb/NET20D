@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Webbshop.Controllers.AdminController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAYAEBIAACAAACCCAAYAAAAgASBUAgIAAgg=</HashCode>
+      <FileName>Controllers\AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Controllers.BookController">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAgAAAAcCAEEAAAAAAgAAAAAIAACAAAAAAAEA=</HashCode>
+      <FileName>Controllers\BookController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Controllers.Menu">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Controllers\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Controllers.RunProgram">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\RunProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Controllers.SharedController">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAYAAAACAAEACAAAACAAEAAAAAA=</HashCode>
+      <FileName>Controllers\SharedController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Controllers.UserController">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Utils.GeneralViewHelper">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Utils\GeneralViewHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Utils.InputHelper">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\InputHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.AdminView">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAAAAAAYAEBAEACAAACCAAAQAAAAgAQAEAgIEAgo=</HashCode>
+      <FileName>Views\AdminView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.BookView">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAQQCAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\BookView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.LoginView">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Views\LoginView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.SharedError">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAAABAAAAAAAAAAAAkAAIQAgABAAAAAAAAA=</HashCode>
+      <FileName>Views\SharedError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.SharedView">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAAAAAIAAAAAAAAAACAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Views\SharedView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.StartView">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Views\StartView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.UserView">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

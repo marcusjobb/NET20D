@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebbShopApi.Program">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAIAAAAAACACAAQEAAAAAAAAQBAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopApi.Database.Seeder">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Seeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopApi.Helpers.WebbShopAPI">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hBBKAABAAAYAAIAAAWAAAAKCCQBBgAAgAAAQAAAAAgg=</HashCode>
+      <FileName>WebbShopAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopApi.Models.BookCategory">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopApi.Models.SoldBook">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAEAAgYAAAAgACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SoldBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopApi.Models.User">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAGAAAAAAAAAAwACAAQAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopApi.Models.Book">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAAAAgQAAAASACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Webbshop.Controllers.BookControllers">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBBIAABAAAAEAoAAACQAAAAAAAAAAAAABCAACAAMAAA=</HashCode>
+      <FileName>Controllers\BookControllers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Controllers.CategoriesControllers">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAQQAAAAAAAAAQAAAQCAAAAAACAAAAABAAg=</HashCode>
+      <FileName>Controllers\CategoriesControllers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Controllers.StartupControllers">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAgABYAAAAAAA=</HashCode>
+      <FileName>Controllers\StartupControllers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Controllers.UsersControllers">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAkACAAABAAAUAAgAAQAAQAAAAAACAAAEAAAAA=</HashCode>
+      <FileName>Controllers\UsersControllers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Helpers.HelperMethods">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAIAAQAAAAAAACAAAAAAAAIAAAACABAAAAAAA=</HashCode>
+      <FileName>Helpers\HelperMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.CategoriesView">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAACAgAAAEAIABAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Views\CategoriesView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.StartupView">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAgAQ=</HashCode>
+      <FileName>Views\StartupView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.BookView">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAACAAAAgACACABAgAAAAAIAACmAAAgAiAAA=</HashCode>
+      <FileName>Views\BookView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.Messages">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Messages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webbshop.Views.UsersView">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAQAAAAAAAAAAAICAAAAAAAAAAAAAAAEAAAAAI=</HashCode>
+      <FileName>Views\UsersView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

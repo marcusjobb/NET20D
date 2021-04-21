@@ -1,0 +1,77 @@
+﻿@model IEnumerable<WebbShopApi.Models.SoldBook>
+
+    @{
+        ViewData["Title"] = "Index";
+
+    }
+
+    <h1>Statistic</h1>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Best Customer</h5>
+                    @if (@ViewBag.BestCustomer != null)
+                    {
+                        <p class="card-text">@ViewBag.BestCustomer.Name</p>
+                    }
+                    else
+                    {
+                        <p>none</p>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Money Earned</h5>
+                    <p class="card-text">@ViewBag.MoneyEarned</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <table class="table mt-5">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Catogory</th>
+                <th>Price</th>
+                <th>Purchase Date</th>
+                <th>User Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BookCategory.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PurchaseDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+

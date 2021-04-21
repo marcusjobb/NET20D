@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebbutikFrontend", "WebbutikFrontend\WebbutikFrontend.csproj", "{B5D310F3-6C89-409D-A515-6578706514AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebbShop", "..\WebbShop\WebbShop\WebbShop.csproj", "{B720BCDF-9594-43DE-B242-61E4BDD60218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D310F3-6C89-409D-A515-6578706514AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D310F3-6C89-409D-A515-6578706514AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D310F3-6C89-409D-A515-6578706514AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D310F3-6C89-409D-A515-6578706514AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B720BCDF-9594-43DE-B242-61E4BDD60218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B720BCDF-9594-43DE-B242-61E4BDD60218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B720BCDF-9594-43DE-B242-61E4BDD60218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B720BCDF-9594-43DE-B242-61E4BDD60218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B8E3E0A-804F-4BBE-8398-FAB85B77DF0D}
+	EndGlobalSection
+EndGlobal

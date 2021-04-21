@@ -1,0 +1,17 @@
+﻿/* Login:
+    *      Controller/Login
+    *          Login()
+    *              Anropa Views.Login()
+    *                      "Hej, välkommen"
+    *                      "Skriv ditt namn och lösen för att logga in"
+    *              Input name
+    *              Input password
+    *              var userId = Api.Login(name,password);
+    *         Logout()
+    *              api.Logout(userId);
+    *              Anropa View.Logout()
+    *                      "Du har nu loggat ut"
+    *                      
+    *                      
+    *     Vyer: Visar text och loopar listor för att visa innehållet
+    */

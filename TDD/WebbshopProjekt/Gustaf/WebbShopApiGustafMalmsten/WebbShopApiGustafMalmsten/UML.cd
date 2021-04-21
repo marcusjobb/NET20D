@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebbShopAPIGustafMalmsten.API">
+    <Position X="0.5" Y="3" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WebbShopApiGustafMalmsten.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmstenFrontEnd.AddBookForm">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAMAkACAAAIKAAAIAQAQAAAAAACAQEA=</HashCode>
+      <FileName>AddBookForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmstenFrontEnd.ChangeAmountForm">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAMAEACAAAACAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChangeAmountForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopApiGustafMalmsten.Form1">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgCIxCBAC3iAFIEASSBQaImICJAIIQQgiFSAKDofGo=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="API" />
+      <Property Name="LoginForm" />
+      <Property Name="RegForm" />
+      <Property Name="AddBookForm" />
+      <Property Name="ChangeAmountForm" />
+      <Property Name="NewCategoryForm" />
+      <Property Name="SoldBookForm" />
+      <Property Name="ManageUsersForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmstenFrontEnd.LoginForm">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAFAAACAAAACIAAAAAAABgAAAABAAAA=</HashCode>
+      <FileName>LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmstenFrontEnd.ManageUsersForm">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEACAAACYmBAEAEBCKAAgCCQAAQAACIQAgEIIAAAg=</HashCode>
+      <FileName>ManageUsersForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RegForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmstenFrontEnd.NewCategoryForm">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAACAAAAKAAAAAEAAAAEAAAAAAAA=</HashCode>
+      <FileName>NewCategoryForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmstenFrontEnd.RegForm">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAAABEAAACAACACAACAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>RegForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmstenFrontEnd.SoldBookForm">
+    <Position X="14.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAASAAgEAAgICACAgCCCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoldBookForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

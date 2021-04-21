@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShopIvoNazlic", "BookShopIvoNazlic\BookShopIvoNazlic.csproj", "{F23ADA4D-7FC5-4FA7-ABC6-6CA255B262A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebbShopIvoNazlic", "..\WebbShopIvoNazlic\WebbShopIvoNazlic\WebbShopIvoNazlic.csproj", "{F834438A-D88E-49B2-A0D9-47DA9EB02409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F23ADA4D-7FC5-4FA7-ABC6-6CA255B262A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23ADA4D-7FC5-4FA7-ABC6-6CA255B262A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23ADA4D-7FC5-4FA7-ABC6-6CA255B262A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23ADA4D-7FC5-4FA7-ABC6-6CA255B262A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F834438A-D88E-49B2-A0D9-47DA9EB02409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F834438A-D88E-49B2-A0D9-47DA9EB02409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F834438A-D88E-49B2-A0D9-47DA9EB02409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F834438A-D88E-49B2-A0D9-47DA9EB02409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15CCCDC3-C43B-40D0-819A-78B84D42C575}
+	EndGlobalSection
+EndGlobal

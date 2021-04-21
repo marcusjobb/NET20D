@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebbShopAPIGustafMalmsten.API">
+    <Position X="2.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>hBBCAABECA4AAIAAEGAAAALCCQBBgAAgBAAyAkAAAgg=</HashCode>
+      <FileName>API.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Databas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmsten.Databas">
+    <Position X="6.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQBACAAAQAAEABAAEAAAIAAiCEAIEAIAACAAAAJAAQ=</HashCode>
+      <FileName>Database\Databas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Seeder" />
+      <Property Name="BookCategory" />
+      <Property Name="Book" />
+      <Property Name="SoldBook" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmsten.Database.Seeder">
+    <Position X="7" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Seeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmsten.Model.Book">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAQAAgEAAgAAAAACACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmsten.Model.BookCategory">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Model\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmsten.Model.SoldBook">
+    <Position X="13" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAQAAgEAAgIAAAAgACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SoldBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmsten.Model.User">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAGAAAAEAAAAAwACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Model\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShopAPIGustafMalmsten.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="API" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

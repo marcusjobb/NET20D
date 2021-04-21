@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebbShop.Controllers.ActivateUser" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ActivateUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.AddBook" Collapsed="true">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AddBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.AddCategory" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AddCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.AddToCategory" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AddToCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.AddUser" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAACAAA=</HashCode>
+      <FileName>Controllers\AddUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.BuyBook" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\BuyBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.DeleteBook" Collapsed="true">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\DeleteBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.DeleteCategory" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\DeleteCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.DemoteUser" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\DemoteUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.InactivateUser" Collapsed="true">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\InactivateUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.LoginUser" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Controllers\LoginUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.Logout" Collapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Controllers\Logout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.MoneyEarned" Collapsed="true">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MoneyEarned.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.PromoteUser" Collapsed="true">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Controllers\PromoteUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.SearchBookByTitle" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAA=</HashCode>
+      <FileName>Controllers\SearchBookByTitle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.SearchByAuthor" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAA=</HashCode>
+      <FileName>Controllers\SearchByAuthor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.SearchByBookId" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Controllers\SearchByBookId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.SearchCategory" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAA=</HashCode>
+      <FileName>Controllers\SearchCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.SearchUser" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Controllers\SearchUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.ShowBestCustomer" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Controllers\ShowBestCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.ShowBooksInCategory" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAQAAACAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ShowBooksInCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.ShowSoldBooks" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ShowSoldBooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.ShowUsers" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ShowUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.UpdateBook" Collapsed="true">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UpdateBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Controllers.UpdateCategory" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UpdateCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.AdminView.AdminMenu" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAECAICACAIA5AgAAAHAHAAAAgAQ=</HashCode>
+      <FileName>Views\AdminView\AdminMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.AdminView.Books" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQEBgAQAACAAAFQCOEKAAUgKAAhCAQQIABASDABAhAQ=</HashCode>
+      <FileName>Views\AdminView\Books.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.AdminView.CategoryOptions" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABhwQAVCAAMQAhoFiAAgAWQAgQAQAAEGACRAAAhAA=</HashCode>
+      <FileName>Views\AdminView\CategoryOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.AdminView.ShowMoneyEarned" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAChEAQAACBAEAQEIECAAAASAAggAACMACAABIAAgAA=</HashCode>
+      <FileName>Views\AdminView\ShowMoneyEarned.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.SoldBooks" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAABAAIECAAAACAAggAAAAACAABAAAAAQ=</HashCode>
+      <FileName>Views\AdminView\SoldBooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.Users" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAACAAABAAIECAGABSIMg7AAAAEHAPBAAAgAA=</HashCode>
+      <FileName>Views\AdminView\Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.HomePage" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABCAAACAAAACAAAgAgAAAHAGAAAAAAA=</HashCode>
+      <FileName>Views\HomePageView\HomePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.LogIn" Collapsed="true">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCCAj0AECAAABAIAACCgAMSCIBoAICAEnQABjAAAUA=</HashCode>
+      <FileName>Views\HomePageView\LogIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.HomePageView.purchase" Collapsed="true">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAQAKKgBAAYKECAAAASAAqgAAABAQAABAAAgAA=</HashCode>
+      <FileName>Views\HomePageView\purchase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.Registration" Collapsed="true">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAEACAAAByAAA4AAAAEHAAAAAAAAA=</HashCode>
+      <FileName>Views\HomePageView\Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebbShop.Views.HomePageView.SearchBook" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACICAAAAACIgIAQAkEKAAAACAAiwAAAAAXAAABAAgAA=</HashCode>
+      <FileName>Views\HomePageView\SearchBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

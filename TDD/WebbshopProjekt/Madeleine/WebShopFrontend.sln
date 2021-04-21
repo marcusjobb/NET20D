@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShopFrontend", "WebShopFrontend-main\WebShopFrontend-main\WebShopFrontend.csproj", "{BD837FAE-0124-442A-8158-A1F0F3541BEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShopAssignment", "WebShopAssignment-master\WebShopAssignment-master\WebShopAssignment\WebShopAssignment.csproj", "{4F5F493F-F2F3-4B8D-859A-B5D85493089A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD837FAE-0124-442A-8158-A1F0F3541BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD837FAE-0124-442A-8158-A1F0F3541BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD837FAE-0124-442A-8158-A1F0F3541BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD837FAE-0124-442A-8158-A1F0F3541BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5F493F-F2F3-4B8D-859A-B5D85493089A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5F493F-F2F3-4B8D-859A-B5D85493089A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5F493F-F2F3-4B8D-859A-B5D85493089A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5F493F-F2F3-4B8D-859A-B5D85493089A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AF83624-7B85-413C-9AD9-F533C56311BE}
+	EndGlobalSection
+EndGlobal

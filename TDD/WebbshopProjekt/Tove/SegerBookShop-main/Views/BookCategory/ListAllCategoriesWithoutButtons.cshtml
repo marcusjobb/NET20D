@@ -1,0 +1,46 @@
+﻿@model IEnumerable<BookShop.Models.BookCategory>
+@{
+    ViewData["Title"] = "ShowSearchResults";
+}
+<div class="container p-2">
+    <div class="row pt-4">
+        <div class="=" col-6">
+            <h2 class="text-primary">Results</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a asp-controller="BookCategory" asp-action="Create" class="btn bg-primary">Create New Book Category</a>
+        </div>
+        <br />
+
+        @if (Model.Count() > 0)
+        {
+            <table class="table table-bordered table-striped" stryle="width:100%">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var category in Model)
+                    {
+                        <tr>
+                            <td width="20%">@category.Name</td>                          
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        }
+        else
+        {
+            <p>No book categories created yet</p>
+        }
+        <div>
+            <a asp-action="ListAllCategories">Back</a>
+        </div>
+
+    </div>
+</div>
+

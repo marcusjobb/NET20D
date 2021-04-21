@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inlämning_3Front.Controllers.AdminController">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hBAAAABgAAYAIBkEACAAAACAAAAAAIAgASAIAEAABgg=</HashCode>
+      <FileName>Controllers\AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning_3Front.Controllers.BookController">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIEAAAEAAAAAABAAAAAAgSEAAAAAACA=</HashCode>
+      <FileName>Controllers\BookController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning_3Front.Controllers.Controller">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAIAAAEJAAAAASEYAAAAAAA=</HashCode>
+      <FileName>Controllers\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning_3Front.Views.AdminView">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAIAACAAAABgAAAAAAAAAAAAwAAIABAABJgAAAAEA=</HashCode>
+      <FileName>Views\AdminView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning_3Front.Views.BookView">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAQAgAAAgAAAAAAAFQAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Views\BookView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning_3Front.Views.MessageView">
+    <Position X="12.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABBAAAAAAAgAAAAgAAAADAEAABAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MessageView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning_3Front.Views.View">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAQAAIAAABAAAIgAAAAAA=</HashCode>
+      <FileName>Views\View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

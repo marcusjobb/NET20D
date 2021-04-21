@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NewFile1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\InlamningDB2-master\InlamningDB2\InlamningDB2.csproj" />
+    <ProjectReference Include="..\..\InlamningDB2\InlamningDB2\InlamningDB2.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebshopApi.Database.MyContext">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAEAAAAAAAAAAAgAAAEAAAAAAAAAABAAA=</HashCode>
+      <FileName>Database\MyContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApi.Helpers.Tester">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Helpers\Tester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApi.Models.Book">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAgEAAgAAAAACAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApi.Models.Category">
+    <Position X="11.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApi.Models.SoldBook">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAgEAAgAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\SoldBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApi.Models.User">
+    <Position X="8.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAGgAAAEAAAAAQACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApi.WebbShopAPI">
+    <Position X="1.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>hBBKEABEAAYAgIAAAGAgAALCAwBBgAQgBAAwAkAIAgg=</HashCode>
+      <FileName>WebbShopAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopApi.Database.Seeder">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAECAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Database\Seeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

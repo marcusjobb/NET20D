@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebshopMVC.Controllers.BookController">
+    <Position X="4" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAQAAAAAAIAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\BookController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Controllers.CategoryController">
+    <Position X="6.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAQAAAAAAAQAQAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CategoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Controllers.UserController">
+    <Position X="9.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAASIQAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopAPI.API" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WebshopMVC.UtilsMVC.BookConverters">
+    <Position X="0.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UtilsMVC\Converters\BookConverters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.UtilsMVC.Converters.CategoryConverters">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UtilsMVC\Converters\CategoryConverters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.UtilsMVC.Converters.SoldBooksConverters">
+    <Position X="0.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>UtilsMVC\Converters\SoldBooksConverters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.UtilsMVC.Converters.UserConverters">
+    <Position X="0.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UtilsMVC\Converters\UserConverters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.BookView">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\BookView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.CategoryView">
+    <Position X="5.75" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\CategoryView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.SoldBooksView">
+    <Position X="9.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\SoldBooksView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.UserView">
+    <Position X="7.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Views\UserView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.Messages.ErrorMessage">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Views\Messages\Admin\ErrorMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.Messages.Admin.GeneralMessage">
+    <Position X="15" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Messages\Admin\GeneralMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.Messages.BuyBookMessage">
+    <Position X="15" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Views\Messages\General\BuyBookMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.Messages.LoginMessage">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Messages\General\LoginMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.Messages.LogoutMessage">
+    <Position X="15" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Messages\General\LogoutMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.Messages.Prompts">
+    <Position X="12.25" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Views\Messages\General\Prompts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.Views.Messages.RegisterMessage">
+    <Position X="15" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Messages\General\RegisterMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.ControllersAdmin.AdminBookController">
+    <Position X="4" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BBAAIAAEAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControllersAdmin\AdminBookController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.ControllersAdmin.AdminCategoryController">
+    <Position X="6.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ControllersAdmin\AdminCategoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebshopMVC.ControllersAdmin.AdminUserController">
+    <Position X="9.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAgAAAAABAAAAAAAAAAAAQAAAAgAAAAAkAABAA=</HashCode>
+      <FileName>ControllersAdmin\AdminUserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

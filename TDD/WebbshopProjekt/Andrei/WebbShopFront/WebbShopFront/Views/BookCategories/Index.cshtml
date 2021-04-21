@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WebbShopApi.Models.BookCategory>
+@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Catergories";
+}
+
+<h1>All categories</h1>
+
+@if (@Context.Session.GetString("IsAdmin") == "True")
+{
+<a class="btn btn-primary mb-4" asp-controller="BookCategories" asp-action="Create">Add category</a>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Category Name</th>
+
+            @if (@Context.Session.GetString("IsAdmin") == "True")
+            {
+                <th></th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name) <a class="btn btn-sm btn-primary ml-4" asp-controller="Books" asp-route-categoryId="@item.BookCategoryId">Show books</a>
+                </td>
+
+                @if (@Context.Session.GetString("IsAdmin") == "True")
+                {
+                    <td>
+                        <a asp-action="Edit" asp-controller="BookCategories" asp-route-id="@item.BookCategoryId">Edit</a> |
+                        <a asp-action="Delete" asp-controller="BookCategories" asp-route-id="@item.BookCategoryId">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,110 @@
+﻿@model IEnumerable<WebbShopApi.Models.User>
+@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All users</h1>
+
+
+@if (@Context.Session.GetString("IsAdmin") == "True")
+{
+    <a class="btn btn-primary mb-5" asp-action="Create">Add user</a>
+}
+else
+{
+    <p class="mb-2">Please login as an administrator to gain full access</p>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            @if (@Context.Session.GetString("IsAdmin") == "True")
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.Password)
+                </th>
+            }
+            <th>
+                @Html.DisplayNameFor(model => model.LastLogin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SessionTimer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActiove)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAdmin)
+            </th>
+            @if (@Context.Session.GetString("IsAdmin") == "True")
+            {
+                <th></th>
+                <th></th>
+            }
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            @if (@Context.Session.GetString("IsAdmin") == "True")
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+            }
+            <td>
+                @Html.DisplayFor(modelItem => item.LastLogin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SessionTimer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActiove)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAdmin)
+            </td>
+            @if (@Context.Session.GetString("IsAdmin") == "True")
+            {
+                <td>
+                    @if (!@item.IsAdmin)
+                    {
+                        <a class="btn btn-sm btn-success" asp-action="Promote" asp-route-id="@item.UserId">Promote</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-sm btn-danger" asp-action="Demote" asp-route-id="@item.UserId">Demote</a>
+                    }
+                </td>
+
+                <td>
+                    @if (!@item.IsActiove)
+                    {
+                        <a class="btn btn-sm btn-success" asp-action="Activate" asp-route-id="@item.UserId">Activate</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-sm btn-danger" asp-action="Deactivate" asp-route-id="@item.UserId">Deactivate</a>
+                    }
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
+                </td>
+
+            }
+
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inlämning2WebbShop.Database.WebbShopContext">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAEAAAAAAAAAAAgAAAEAAAAAAAAAABAAA=</HashCode>
+      <FileName>Database\WebbShopContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.Database.Seeder">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Seeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.WebbShopAPI">
+    <Position X="8.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hBBIAABEQAYAAIAAAGAAAALCAQBBgAAgBAAwAkAAAgg=</HashCode>
+      <FileName>WebbShopAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.Models.Book">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAEAEgAAAAACAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.Models.BookCategory">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.Models.SoldBook">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAQAAAEAEgAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\SoldBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.Models.User">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAGAAAEEAAAAAQACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.Helpers.HelperMethods">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAAAIQAAAAAAAAAAAEAAIAAAEAAFAAAAAAAAA=</HashCode>
+      <FileName>Helpers\HelperMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.Helpers.Test">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KgAAAAAAAAAAAAACAAAAAEAAAgAAAAAAACAAIAAAAAA=</HashCode>
+      <FileName>Helpers\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inlämning2WebbShop.Program">
+    <Position X="13.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

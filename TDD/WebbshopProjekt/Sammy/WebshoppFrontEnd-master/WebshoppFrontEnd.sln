@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebbshopFrontEnd", "WebshoppFrontEnd\WebbshopFrontEnd.csproj", "{BE241324-1670-4D27-901C-B4FC68E3C3B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inlämning2", "..\Inl-mning2-master\Inl-mning2-master\Inlämning2\Inlämning2.csproj", "{79FF4EB0-3DE4-495C-83CA-BF1F6D333B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE241324-1670-4D27-901C-B4FC68E3C3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE241324-1670-4D27-901C-B4FC68E3C3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE241324-1670-4D27-901C-B4FC68E3C3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE241324-1670-4D27-901C-B4FC68E3C3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FF4EB0-3DE4-495C-83CA-BF1F6D333B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FF4EB0-3DE4-495C-83CA-BF1F6D333B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FF4EB0-3DE4-495C-83CA-BF1F6D333B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FF4EB0-3DE4-495C-83CA-BF1F6D333B13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2A1FFBC-F558-4C40-95D6-10844BB1E3E9}
+	EndGlobalSection
+EndGlobal
