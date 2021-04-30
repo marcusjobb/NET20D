@@ -101,17 +101,15 @@ namespace SimpleStarscape.ScreenStuff
             CreateGhosts();
             CreateUfo();
             CreateFrame();
-
             sh.ShowScreen();
             var lastDimension = (Console.WindowWidth, Console.WindowHeight);
-            const bool showUfo = false;
+            const bool showUfo = true;
             while (true)
             {
                 if (Console.KeyAvailable)
                 {
                     var key = Console.ReadKey().Key;
-                    if (key == ConsoleKey.Escape) break;
-                    if (key == ConsoleKey.Enter) break;
+                    if (key is ConsoleKey.Escape or ConsoleKey.Enter) break;
                     if (key == ConsoleKey.UpArrow) { SetSpeed(-10); }
                     if (key == ConsoleKey.DownArrow) { SetSpeed(10); }
                 }
@@ -124,7 +122,7 @@ namespace SimpleStarscape.ScreenStuff
                 }
 
                 MoveStars();
-
+                const int middle = 56;
                 sh.DrawSprite(Message, false);
                 Message.MoveSprite();
                 sh.DrawSprite(Message);
@@ -135,19 +133,20 @@ namespace SimpleStarscape.ScreenStuff
                 if (Pacman.X > width) Pacman.X = -130;
 
                 sh.DrawSprite(GhostA,false);
-                GhostA.Layer = GhostA.X > width / 3 ? LayerType.Pacman : LayerType.PacGhosts;
+                GhostA.Layer = GhostA.X > middle ? LayerType.Pacman : LayerType.PacGhosts;
                 GhostA.MoveSprite(1);
                 sh.DrawSprite(GhostA);
                 if (GhostA.X > width) GhostA.X = -130;
 
                 sh.DrawSprite(GhostB,false);
-                GhostB.Layer = GhostB.X > width / 2 ? LayerType.Pacman : LayerType.PacGhosts;
+                GhostB.Layer = GhostB.X > middle ? LayerType.Pacman : LayerType.PacGhosts;
                 GhostB.MoveSprite(1);
                 sh.DrawSprite(GhostB);
                 if (GhostB.X > width) GhostB.X = -130;
 
 #pragma warning disable CS0162 // Don't nag about Unreachable code detected
                 // flag is set to false to not show the UFO, because less is more
+                // ReSharper disable once ConditionIsAlwaysTrueOrFalse
                 if (showUfo)
                 {
                     MoveUfo();
@@ -173,7 +172,7 @@ namespace SimpleStarscape.ScreenStuff
             sh.PrintAt(LayerType.Frame, 0, height - 1, new string(laying, width - 1));
             sh.PrintAt(LayerType.Frame, 0, height - 1, bottomLeft.ToString());
             sh.PrintAt(LayerType.Frame, width - 1, height - 1, bottomRight.ToString());
-            for (int y = 1; y < height - 1; y++)
+            for (var y = 1; y < height - 1; y++)
             {
                 sh.PrintAt(LayerType.Frame, 0, y, side + new string('\0', width - 2) + side);
             }
@@ -200,14 +199,14 @@ namespace SimpleStarscape.ScreenStuff
             text[row++] = "                             |__|                                                      |__|                 ";
             text[row++] = "                                                                                                             ";
             text[row++] = "    _________            .___.__            ___________    .___                    __  .__                  ";
-            text[row++] = @"    \_§§§___§\  ____   __|§_/|  | ____      \_§§§_____/  __|§_/_ __   ____ _____ _/§§|_|  | ____   ____     ";
+            text[row++] = @"    \_§§§___§\  ____   __|§_/|§§| ____      \_§§§_____/  __|§_/_ __   ____ _____ _/§§|_|§§| ____   ____     ";
             text[row++] = @"    /§§§§\  \/ /§§_§\ /§__§| |§§|/ ___\      |§§§§__)_  /§__§|§§|§§\_/§___\\__§§\\§§§__\§§|/§§_§\ /§§§§\    ";
             text[row++] = @"    \§§§§§\___(§§<_>§)§/_/§| |§§\§§\___      |§§§§§§§§\/§/_/§|§§|§§/\§§\___ /§__§\|§§| |§§(§§<_>§)§§§|§§\   ";
             text[row++] = @"     \______§§/\____/\____§| |__|\___§§>    /_______§§/\____§|____/  \___§§>____§§/__|§|__|\____/|___|§§/   ";
             text[row++] = @"            \/            \/         \/             \/      \/           \/     \/                    \/    ";
             text[row] = "                                                                                                            ";
 
-            for (int i = 0; i < text.Length; i++)
+            for (var i = 0; i < text.Length; i++)
             {
                 sh.Center(LayerType.CodicText, 5 + i, text[i].Replace(' ', '\0').Replace('§', ' '));
             }
@@ -276,7 +275,7 @@ namespace SimpleStarscape.ScreenStuff
         /// </summary>
         private void CreateMovingStars()
         {
-            for (int i = 0; i < AmountOfStars; i++)
+            for (var i = 0; i < AmountOfStars; i++)
             {
                 Stars[i] = new MovingStar
                 {
@@ -325,11 +324,11 @@ namespace SimpleStarscape.ScreenStuff
         /// </summary>
         private void CreateStaticStars()
         {
-            for (int i = 0; i < 60; i++)
+            for (var i = 0; i < 60; i++)
             {
                 sh.PrintAt(LayerType.Stars, rnd.Next(0, width), rnd.Next(0, height), ".");
             }
-            for (int i = 0; i < 2; i++)
+            for (var i = 0; i < 2; i++)
             {
                 sh.PrintAt(LayerType.Stars, rnd.Next(0, width), rnd.Next(0, height), "+");
                 sh.PrintAt(LayerType.Stars, rnd.Next(0, width), rnd.Next(0, height), "*");
@@ -383,12 +382,10 @@ namespace SimpleStarscape.ScreenStuff
         /// </summary>
         private void MoveStars()
         {
-            for (int i = 0; i < Stars.Length; i++)
+            for (var i = 0; i < Stars.Length; i++)
             {
                 sh.PrintAt(LayerType.MovingStars, Stars[i].X, Stars[i].Y, "\0");
-                var ch = ".";
-                if (Stars[i].Y < 8) ch = "°";
-                if (Stars[i].Y > 16) ch = "°";
+                var ch = Stars[i].Y is < 8 or > 16 ? "°" : ".";
                 Stars[i].MoveStar();
                 sh.PrintAt(LayerType.MovingStars, Stars[i].X, Stars[i].Y, ch);
             }
