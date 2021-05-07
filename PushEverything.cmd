@@ -1,4 +1,4 @@
-rem @echo off
+@echo off
 IF [%1] == [] GOTO Error
 git add .
 git commit -m %1
