@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tdd_inlamning_1", "tdd_inlamning_1\tdd_inlamning_1.csproj", "{202B3A3E-1482-414E-92DC-130BDCBEFD5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tdd_inlamning_1Tests", "tdd_inlamning_1Tests\tdd_inlamning_1Tests.csproj", "{006321B2-60B3-4223-8C3E-7A4B12B704EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{202B3A3E-1482-414E-92DC-130BDCBEFD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202B3A3E-1482-414E-92DC-130BDCBEFD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202B3A3E-1482-414E-92DC-130BDCBEFD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202B3A3E-1482-414E-92DC-130BDCBEFD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006321B2-60B3-4223-8C3E-7A4B12B704EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006321B2-60B3-4223-8C3E-7A4B12B704EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006321B2-60B3-4223-8C3E-7A4B12B704EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006321B2-60B3-4223-8C3E-7A4B12B704EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79BBA532-4443-460B-A12F-C481903CD60E}
+	EndGlobalSection
+EndGlobal

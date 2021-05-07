@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDgeometric", "TDDgeometric\TDDgeometric.csproj", "{58456D25-33DF-4D39-85CD-D9B063E7AD2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDgeometricTests", "TDDgeometricTests\TDDgeometricTests.csproj", "{2D60D784-769F-49A7-A9EB-2DCD003A29A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58456D25-33DF-4D39-85CD-D9B063E7AD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58456D25-33DF-4D39-85CD-D9B063E7AD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58456D25-33DF-4D39-85CD-D9B063E7AD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58456D25-33DF-4D39-85CD-D9B063E7AD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D60D784-769F-49A7-A9EB-2DCD003A29A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D60D784-769F-49A7-A9EB-2DCD003A29A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D60D784-769F-49A7-A9EB-2DCD003A29A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D60D784-769F-49A7-A9EB-2DCD003A29A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F9516C0-1F26-4A05-8B98-93C17AF1199D}
+	EndGlobalSection
+EndGlobal

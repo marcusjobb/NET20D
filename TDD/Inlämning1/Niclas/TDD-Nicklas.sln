@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD-Nicklas", "TDD-Nicklas\TDD-Nicklas.csproj", "{D9AB8659-08F6-40A3-BB60-736DA5A5A35F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD-NicklasTests", "TDD-NicklasTests\TDD-NicklasTests.csproj", "{395E7975-5C65-4A10-A427-33EA6530315D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9AB8659-08F6-40A3-BB60-736DA5A5A35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AB8659-08F6-40A3-BB60-736DA5A5A35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AB8659-08F6-40A3-BB60-736DA5A5A35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AB8659-08F6-40A3-BB60-736DA5A5A35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395E7975-5C65-4A10-A427-33EA6530315D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395E7975-5C65-4A10-A427-33EA6530315D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395E7975-5C65-4A10-A427-33EA6530315D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395E7975-5C65-4A10-A427-33EA6530315D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09FEA5A4-A919-4291-9967-268B0B3CEB6A}
+	EndGlobalSection
+EndGlobal

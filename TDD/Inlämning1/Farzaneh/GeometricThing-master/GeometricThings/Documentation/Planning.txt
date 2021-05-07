@@ -1,0 +1,53 @@
+﻿## Requirements:
+  * Interface class with GetArea and GetPerimeter that each object must implement the methods.
+  
+  * Square class:
+    - constructor that sets parameters
+    - public float GetPerimeter();
+    - public float GetArea();
+
+  * Rectangle class:
+    - constructor that sets parameters
+    - public float GetPerimeter();
+    - public float GetArea();
+
+  * Equilateral triangle class:
+    - constructor that sets parameters
+    - public float GetPerimeter();
+    - public float GetArea();
+
+  * Circle class:
+    - constructor that sets parameters
+    - public float GetPerimeter();
+    - public float GetArea();
+
+  * GeometricCalculator class:
+    - pubic float GetArea(GeometricThing thing);
+    - pubic float GetPerimeter(GeometricThing thing);
+    - pubic float GetPerimeter(GeometricThing[] thing);
+
+
+## TESTNING:
+
+   * Square class:
+    - Test GetPerimeter();
+    - Test GetArea();   
+
+  * Rectangle class:
+    - Test GetPerimeter();
+    - Test GetArea();   
+
+  * Equilateral triangle class:
+    - Test GetPerimeter();
+    - Test GetArea();  
+
+  * Circle class:
+    - Test GetPerimeter();
+    - Test GetArea();
+    
+  * GeometricCalculator class:
+    - GetPerimeter(GeometricThing thing) and GetArea(GeometricThing thing) must be tested with all types of objects
+    - test pubic float GetPerimeter(GeometricThing[] thing)
+
+
+     

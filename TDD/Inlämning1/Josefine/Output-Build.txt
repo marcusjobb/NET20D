@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: TDDInlämningGeometry, Configuration: Debug Any CPU ------
+1>TDDInlämningGeometry -> C:\Users\Josefine\source\repos\TDDInlämningGeometry\TDDInlämningGeometry\bin\Debug\net5.0\TDDInlämningGeometry.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

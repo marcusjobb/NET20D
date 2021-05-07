@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlamning1-Geometri", "Inlamning1-Geometri\Inlamning1-Geometri.csproj", "{120D4FA9-F547-4338-AF99-46ECB1BAA5D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlamning1-GeometriTests", "Inlamning1-GeometriTests\Inlamning1-GeometriTests.csproj", "{2F006EFB-7AEE-44B0-A2D5-42FE5F496EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{120D4FA9-F547-4338-AF99-46ECB1BAA5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120D4FA9-F547-4338-AF99-46ECB1BAA5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120D4FA9-F547-4338-AF99-46ECB1BAA5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120D4FA9-F547-4338-AF99-46ECB1BAA5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F006EFB-7AEE-44B0-A2D5-42FE5F496EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F006EFB-7AEE-44B0-A2D5-42FE5F496EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F006EFB-7AEE-44B0-A2D5-42FE5F496EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F006EFB-7AEE-44B0-A2D5-42FE5F496EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40180DBC-484F-4555-932B-C1FB944C37C1}
+	EndGlobalSection
+EndGlobal

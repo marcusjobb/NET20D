@@ -1,0 +1,68 @@
+﻿
+                                     /~\
+                                    |oo )      We're doomed, Hoffmann made these unit tests
+                                    _\=/_
+                    ___        #   /  _  \   #
+                   /() \        \\//|/.\|\\//
+                 _|_____|_       \/  \_/  \/
+                | | === | |         |\ /|
+                |_|  O  |_|         \_ _/
+                 ||  O  ||          | | |
+                 ||__*__||          | | |
+                |~ \___/ ~|         []|[]
+                /=\ /=\ /=\         | | |
+________________[_]_[_]_[_]________/_]_[_\_________________________________________________________________________________________________________________________________________________________
+http://www.asciimation.co.nz/
+
+1.  Planering - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Jag började projektet med att planera namn, metoder och klasser. Mitt mål var att fasaden utåt mot användaren skulle vara enkel, men att mot programmeraren ska det vara enkelt att
+    slippa många variabler istället. Exempelvis om man tittar på klassen Triangel har vi konstruktorn som tar emot 2 kateter och 1 hypotenusa. Detta är enklare att förstå än a, b och c.
+
+    Men för programmeraren är det enklare att koda om alla klasser håller sig enhetliga med vilka variabler som finns, A och B + C i triangelns fall. Namnen för metoderna på klasserna tog
+    jag utifrån uppgiftens kravställning om:
+
+        - GetArea
+        - GetPerimeter
+
+    Jag hade svårt att avgöra om jag ville hålla all kod till GeometricCalculator, exempelvis att GetArea(GeometricThing thing) skulle kontrollera om thing är en specifik klass (thing is Circle) 
+    och sedan göra beräkningen där så att inte varje klass behöver ha metoderna. Däremot kände jag att det blev svårläst kod, det blev mycket på ett och samma ställe och jag beslutade att 
+    refaktorisera koden till separata klasser. Det skulle förenkla vidareutveckling också.
+
+    Härnäst ville jag göra tester för varje publik metod jag har, för varje klass.
+    
+1.1 Kod - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Mitt nästa mål var att bygga kort, clean kod som inte har massa extra.
+    Koden ska vara kort, precis och göra exakt vad den ska, gärna med inbyggd kod om det finns. Jag skippade däremot onödiga steg som att importera Systems för att få Math.PI bara för att komma 
+    åt värdet 3.14. 
+    
+    - Datatypen float valdes utifrån kravspecen i uppgiften.
+    - Namnkonventioner var påverkade av kravspecer i uppgiften
+    - Klasser och urval påverkade av kravspec i uppgift
+    - Inkluderat automatisk uträkning av hypotenusa om katet är definierat i objektet, men om hypotenusa saknas
+    - Ett test av alla publika metoder, inkl. kalkylatorn
+
+2.  Unit test - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Nu var det dags att skriva alla tester, jag valde att skriva en assert per metod för att följa best practice från Microsoft. Detta då det anses vara mer förmånligt att separera koden från 
+    varandra och skriva separata metoder för samtliga. Med detta taget ska namnet på testerna innehålla lämpliga namn, så enligt deras definition:
+    
+    Naming your tests
+
+    The name of your test should consist of three parts:
+
+        The name of the method being tested.
+        The scenario under which it's being tested.
+        The expected behavior when the scenario is invoked.
+    - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#best-practices
+    - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#avoid-multiple-asserts
+
+    Däremot valde jag att bygga mina metoder utan parameter eftersom det skulle ge möjligheten att variera parametrar för beräkning i metoden utifrån egenskaper eller variabler av objektet 
+    istället. Detta kändes klokare eftersom definitionen av en area eller omkrets för ett geometriskt objekt inte modifieras med att tiden går.
+
+    Pga detta fick jag bygga flera metoder istället för att markera variation i input.
+
+3.  Uppsättning av testerna - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Jag hade lite svårt att förstå: "Negativ = Tar emot felaktiga värden, exempelvis null >>>och hanterar det utan krasch<<<", om detta skulle plockas upp av en try-catch eller faktiskt hanteras 
+    som bara en return; eller Assert.IsFail. Eftersom jag ville ha ett negativt utfall valde jag att göra IsFail som slutförande.
+
+    Jag ville att koden skulle vara väldigt tydlig och valde därför att dokumentera innuti metodens kod med arrange, act, assert.
+    Jag har utifrån beskrivningen av uppgiften avsiktligt gjort att det ska finnas 11 tester som ger success och 11 som ger fail, alltså 22 tester i helhet.
