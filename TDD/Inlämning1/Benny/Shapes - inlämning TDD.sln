@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes - inlämning TDD", "Shapes - inlämning TDD\Shapes - inlämning TDD.csproj", "{AB096454-9017-4179-834F-D6ECA7A38D05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB096454-9017-4179-834F-D6ECA7A38D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB096454-9017-4179-834F-D6ECA7A38D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB096454-9017-4179-834F-D6ECA7A38D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB096454-9017-4179-834F-D6ECA7A38D05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9265AF6E-0D72-475B-B0FE-64C11072C3C5}
+	EndGlobalSection
+EndGlobal
