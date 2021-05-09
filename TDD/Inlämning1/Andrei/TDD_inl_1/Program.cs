@@ -1,0 +1,12 @@
+﻿namespace TDD_inl_1
+{
+    using System;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("HI");
+        }
+    }
+}
