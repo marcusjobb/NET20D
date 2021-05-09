@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometriTest", "GeometriTest\GeometriTest.csproj", "{D2F0816D-A792-47D2-9434-60B2FB06816B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriTestTests", "GeometriTestTests\GeometriTestTests.csproj", "{36719216-2F23-4253-A5A4-57C187144752}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2F0816D-A792-47D2-9434-60B2FB06816B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F0816D-A792-47D2-9434-60B2FB06816B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F0816D-A792-47D2-9434-60B2FB06816B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F0816D-A792-47D2-9434-60B2FB06816B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36719216-2F23-4253-A5A4-57C187144752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36719216-2F23-4253-A5A4-57C187144752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36719216-2F23-4253-A5A4-57C187144752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36719216-2F23-4253-A5A4-57C187144752}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68C23369-D13C-4581-A024-FB7AF2D221BB}
+	EndGlobalSection
+EndGlobal
