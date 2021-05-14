@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometri", "Geometri\Geometri.csproj", "{EA967438-CCFB-4C56-846C-D41694220409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriTriangle", "GeometriTriangle\GeometriTriangle.csproj", "{014B92CC-2D01-41AA-A1CB-22F4FB6E0291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA967438-CCFB-4C56-846C-D41694220409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA967438-CCFB-4C56-846C-D41694220409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA967438-CCFB-4C56-846C-D41694220409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA967438-CCFB-4C56-846C-D41694220409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014B92CC-2D01-41AA-A1CB-22F4FB6E0291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014B92CC-2D01-41AA-A1CB-22F4FB6E0291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014B92CC-2D01-41AA-A1CB-22F4FB6E0291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014B92CC-2D01-41AA-A1CB-22F4FB6E0291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C34F8A8-9918-4DA1-9143-7784BB5EEA48}
+	EndGlobalSection
+EndGlobal
