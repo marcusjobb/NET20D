@@ -1,22 +1,30 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-using MoqFTW.Interfaces;
-using MoqFTW.Webblogics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace MoqFTW.Webblogics.Tests
+﻿namespace MoqFTW.Webblogics.Tests
 {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Moq;
+    using MoqFTW.Interfaces;
+    using MoqFTW.Webblogics;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    /// <summary>
+    /// Defines the <see cref="WebbshopTests" />.
+    /// </summary>
     [TestClass()]
     public class WebbshopTests
     {
-        IWebshop Webshop;
+        /// <summary>
+        /// Defines the Webshop.
+        /// </summary>
+        internal IWebshop Webshop;
 
+        /// <summary>
+        /// The test initialization.
+        /// </summary>
         [TestInitialize]
         public void Setup()
         {
+            // Mock a AddItemToCart, returns true always
             var WebbshopMock = new Mock<IWebshop>();
             WebbshopMock.Setup(
                 w => w.AddItemToCart
@@ -25,6 +33,7 @@ namespace MoqFTW.Webblogics.Tests
                 )
                 ).Returns(true);
 
+            // Mocks a GetCart, returns a list of items
             WebbshopMock.Setup(w => w.GetCart(It.IsAny<IUser>())).Returns
                 (
                     new List<IItem>()
@@ -33,6 +42,7 @@ namespace MoqFTW.Webblogics.Tests
                     }
                 );
 
+            // Sets property of available items
             WebbshopMock.SetupProperty(l => l.ItemsAvailable, new List<IItem>
             {
                 new Item{Id=1, Name="Kattmat", Price=25}
@@ -42,6 +52,9 @@ namespace MoqFTW.Webblogics.Tests
             Webshop = WebbshopMock.Object;
         }
 
+        /// <summary>
+        /// Test AddItemToCart.
+        /// </summary>
         [TestMethod()]
         public void AddItemToCartTest()
         {
@@ -50,6 +63,9 @@ namespace MoqFTW.Webblogics.Tests
             Assert.IsTrue(Webshop.AddItemToCart(user, item));
         }
 
+        /// <summary>
+        /// Test GetCart.
+        /// </summary>
         [TestMethod()]
         public void GetCartTest()
         {
@@ -58,8 +74,11 @@ namespace MoqFTW.Webblogics.Tests
             Assert.AreEqual(1, cart.Count);
         }
 
+        /// <summary>
+        /// Test GetAvailableItems.
+        /// </summary>
         [TestMethod()]
-        public void GetAvailableItems()
+        public void GetAvailableItemsTest()
         {
             var items = Webshop.ItemsAvailable;
             Assert.AreEqual(1, items.Count);

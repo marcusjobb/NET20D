@@ -1,13 +1,20 @@
-﻿using MoqFTW.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MoqFTW.Webblogics
+﻿namespace MoqFTW.Webblogics
 {
+    using MoqFTW.Interfaces;
+
+    /// <summary>
+    /// Defines the <see cref="User" />.
+    /// </summary>
     public class User : IUser
     {
-        public int Id { get ; set ; }
-        public string Name { get ; set ; }
+        /// <summary>
+        /// Gets or sets the Id.
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Name.
+        /// </summary>
+        public string Name { get; set; }
     }
 }

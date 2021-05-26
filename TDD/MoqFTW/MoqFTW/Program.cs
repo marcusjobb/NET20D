@@ -1,12 +1,22 @@
-﻿using System;
-
-namespace MoqFTW
+﻿namespace MoqFTW
 {
-    class Program
+    using MoqFTW.Interfaces;
+    using MoqFTW.Webblogics;
+
+    /// <summary>
+    /// Defines the <see cref="Program" />.
+    /// </summary>
+    internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// The Main method.
+        /// </summary>
+        internal static void Main()
         {
-            Console.WriteLine("Hello Moq!");
+            Webbshop shop = new()
+            {
+                ItemsAvailable = new System.Collections.Generic.List<IItem>()
+            };
         }
     }
 }
