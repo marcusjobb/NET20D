@@ -13,7 +13,7 @@
         /// </summary>
         internal static void Main()
         {
-            Webbshop shop = new()
+            Webshop shop = new()
             {
                 ItemsAvailable = new System.Collections.Generic.List<IItem>()
             };

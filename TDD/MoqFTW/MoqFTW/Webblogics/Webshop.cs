@@ -6,7 +6,7 @@
     /// <summary>
     /// The current Webshop instance.
     /// </summary>
-    public class Webbshop : IWebshop
+    public class Webshop : IWebshop
     {
         /// <summary>
         /// Gets or sets the list of items available.
